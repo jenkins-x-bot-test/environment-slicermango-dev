@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:slicermango/adminUser:password
+  username: admin
+dashboardAuthID: vault:slicermango:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:slicermango:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:slicermango/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:slicermango/prow:hmacToken
